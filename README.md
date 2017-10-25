@@ -1,3 +1,28 @@
+# Issues @ ApostropheCMS beginner tutorial
+Developed until the end of the chapter **_Reusable content with pieces_**
+
+## Reusable content with pieces - custom templates for widgets
+After following the tutorial and adding the code for this section
+
+![Custom Templates For Widgets](./Custom-templates-for-widgets.png)
+
+it was supposed to add the full name, a thumbnail and phone number for every person added as widget. 
+Instead the full name and an empty area are displayed.
+
+![Issue](./BUG-custom-templates-for-widgets.png)
+
+
+
+## Minor improvement in - creating custom templates for individual people section
+Before this section, there were no references to ***show.html*** 
+It is missing Details like what it is and Where it should be added.
+
+I managed to understand using stackoverflow.
+
+
+---
+---
+
 # Apostrophe Boilerplate v2.x
 
 Apostrophe Boilerplate is a minimal starting point for [Apostrophe 2](https://github.com/punkave/apostrophe) projects.

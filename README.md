@@ -14,8 +14,8 @@ Instead the full name and an empty area are displayed.
 
 
 ## Minor improvement in - creating custom templates for individual people section
-Before this section, there were no references to ***show.html*** 
-It is missing Details like what it is and Where it should be added.
+Before this section, there were no references to ***show.html***. 
+There are missing details like what it is and where it should be added.
 
 I managed to understand using stackoverflow.
 

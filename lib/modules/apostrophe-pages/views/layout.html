@@ -1,0 +1,28 @@
+{# lib/modules/apostrophe-pages/views/layout.html in your project #}
+
+{% extends data.outerLayout %}
+
+{% block beforeMain %}
+{# for more examples on Building Navigation - check:
+http://apostrophecms.org/docs/tutorials/getting-started/building-navigation.html
+#}
+<ul class="tabs">
+  {% for tab in data.home._children %}
+    <li class="
+      {% if data.page and
+        (apos.pages.isAncestorOf(tab, data.page) or tab._id == data.page._id)
+      %}
+        current
+      {% endif %}
+    "><a href="{{ tab._url }}">{{ tab.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
+
+
+{% block afterMain %}
+  <footer>
+    Copyright 2017, GER
+  </footer>
+{% endblock %}
+

@@ -1,0 +1,13 @@
+{% extends "apostrophe-pages:layout.html" %}
+
+{% block title %}{{ data.page.title }}{% endblock %}
+
+{% block main %}
+
+  <h2>People</h2>
+  <div data-apos-ajax-context="people">
+    {% include "indexAjax.html" %}
+  </div>
+  {% import 'apostrophe-pager:macros.html' as pager with context %}
+  {{ pager.render({ page: data.currentPage, total: data.totalPages }, data.url) }}
+{% endblock %}

@@ -9,7 +9,7 @@ After following the tutorial and adding the code for this section
 it was supposed to add the full name, a thumbnail and phone number for every person added as widget. 
 Instead the full name and an empty area are displayed.
 
-![Issue](./BUG-custom-templates-for-widgets.png)
+![Issue](./BUG-custom-template-for-widgets.png)
 
 
 
